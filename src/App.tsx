@@ -1,7 +1,6 @@
-import './App.css'
+import './styles/App.css'
 import CircleSVG from './CircleSVG'
 import logo from './logo.svg'
-import circle from './circle.svg'
 
 function App() {
 	return (

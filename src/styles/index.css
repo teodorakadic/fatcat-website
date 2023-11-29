@@ -1,7 +1,7 @@
 @font-face {
 	font-family: 'Stolzl';
 	src: local('Stolzl'),
-		url('./fonts/Stolzl/stolzl_regular.otf') format('opentype');
+		url('../fonts/Stolzl/stolzl_regular.otf') format('opentype');
 }
 
 html,
@@ -10,4 +10,8 @@ body {
 	all: unset;
 	font-family: 'Stolzl';
 	background: rgb(249, 246, 243);
+}
+
+body {
+	overflow-y: scroll;
 }
