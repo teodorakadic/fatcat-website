@@ -1,7 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Header from './pages/Header'
+import Header from './utils/Header'
 import ContactUs from './pages/ContactUs'
 import FrontPage from './pages/FrontPage'
+import Footer from './utils/Footer'
 
 function App() {
 	return (
@@ -13,6 +14,7 @@ function App() {
 					<Route path="/contact-us" element={<ContactUs />} />
 				</Routes>
 			</BrowserRouter>
+			<Footer />
 		</>
 	)
 }
