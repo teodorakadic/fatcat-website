@@ -1,11 +1,13 @@
-.app {
-}
-
 .header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	padding: 16px 40px;
+}
+
+.a-logo {
+	display: flex;
+	margin: 0px;
 }
 
 .logo {
@@ -33,7 +35,7 @@ span.link:hover {
 	color: rgb(92, 98, 249);
 }
 
-a {
+.contact-button {
 	gap: 10px;
 	display: flex;
 	align-items: center;
@@ -48,6 +50,6 @@ a {
 	cursor: pointer;
 }
 
-a:hover {
+.contact-button:hover {
 	background: black;
 }
