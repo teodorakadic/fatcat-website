@@ -44,22 +44,3 @@ button {
 .services {
 	padding-right: 10px;
 }
-
-.contact-button {
-	gap: 10px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-size: 15px;
-	letter-spacing: 0.6px;
-	border-radius: 8px;
-	border: 1px solid rgb(92, 98, 249);
-	background: rgb(92, 98, 249);
-	color: white;
-	padding: 10px 20px;
-	cursor: pointer;
-}
-
-.contact-button:hover {
-	background: black;
-}

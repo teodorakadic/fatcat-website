@@ -1,0 +1,46 @@
+.go-button {
+	gap: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 15px;
+	letter-spacing: 0.6px;
+	border-radius: 8px;
+	padding: 10px 20px;
+	cursor: pointer;
+	border: 1px solid;
+}
+
+.blue {
+	border-color: rgb(92, 98, 249);
+	background: rgb(92, 98, 249);
+	color: white;
+}
+
+.blue:hover {
+	background: rgb(1, 8, 45);
+	border-color: rgb(1, 8, 45);
+}
+
+.black {
+	border-color: rgb(1, 8, 45);
+	background: rgb(1, 8, 45);
+	color: white;
+}
+
+.black:hover {
+	border-color: rgb(92, 98, 249);
+	background: rgb(92, 98, 249);
+}
+
+.clear {
+	background: transparent;
+	border-color: rgb(1, 8, 45);
+	color: rgb(1, 8, 45);
+}
+
+.clear:hover {
+	border-color: rgb(92, 98, 249);
+	background: rgb(92, 98, 249);
+	color: white;
+}

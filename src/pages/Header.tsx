@@ -2,6 +2,7 @@ import '../styles/Header.css'
 import CircleSVG from '../utils/CircleSVG'
 import logo from '../SVGs/logo.svg'
 import dropdownArrow from '../SVGs/dropdownArrow.svg'
+import GoButton from '../utils/GoButton'
 
 const Header = () => {
 	return (
@@ -18,10 +19,11 @@ const Header = () => {
 					<span className="link">Careers</span>
 					<span className="link">About Us</span>
 					<span className="link blog">Blog</span>
-					<a className="contact-button" href="/contact-us">
-						<span>Contact Us</span>
-						<CircleSVG />
-					</a>
+					<GoButton
+						style="blue"
+						link="/contact-us"
+						text="Contact Us"
+					></GoButton>
 				</div>
 			</div>
 			<div></div>
