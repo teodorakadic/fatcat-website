@@ -1,6 +1,7 @@
 import '../styles/Header.css'
 import CircleSVG from '../utils/CircleSVG'
 import logo from '../SVGs/logo.svg'
+import dropdownArrow from '../SVGs/dropdownArrow.svg'
 
 const Header = () => {
 	return (
@@ -10,7 +11,10 @@ const Header = () => {
 					<img src={logo} className="logo" />
 				</a>
 				<div className="links">
-					<span className="link">Services</span>
+					<span className="link">
+						<button className="services">Services</button>
+						<img src={dropdownArrow} />
+					</span>
 					<span className="link">Careers</span>
 					<span className="link">About Us</span>
 					<span className="link blog">Blog</span>

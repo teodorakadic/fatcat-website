@@ -1,3 +1,7 @@
+button {
+	all: unset;
+}
+
 .header {
 	display: flex;
 	align-items: center;
@@ -25,14 +29,20 @@
 	justify-content: center;
 }
 
-span.link {
+.link {
+	display: flex;
+	justify-content: space-between;
 	font-size: 15px;
 	cursor: pointer;
 	letter-spacing: 0.6px;
 }
 
-span.link:hover {
+.link:hover {
 	color: rgb(92, 98, 249);
+}
+
+.services {
+	padding-right: 10px;
 }
 
 .contact-button {
