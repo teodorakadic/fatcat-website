@@ -1,0 +1,29 @@
+.home {
+	width: 100%;
+	max-width: 1080px;
+	min-height: calc(100vh - 77px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0px 40px;
+	gap: 66px;
+	/* overflow: hidden; */
+}
+
+.home p {
+	font-size: 3.375rem;
+	line-height: 1.5;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+	height: 100%;
+	width: 58%;
+}
+
+.buttons {
+	display: flex;
+	gap: 16px;
+}

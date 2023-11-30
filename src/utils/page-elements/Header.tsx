@@ -23,7 +23,7 @@ const Header = () => {
 					link="/contact-us"
 					text="Contact Us"
 					icon={<CircleArrowSVG />}
-				></Button>
+				/>
 			</div>
 		</div>
 	)

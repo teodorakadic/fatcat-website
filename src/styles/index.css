@@ -1,13 +1,22 @@
 @font-face {
-	font-family: 'Stolzl';
-	src: local('Stolzl'), url('../fonts/scraped/a28e96a6e58bd279-s.p.woff2');
+	font-family: 'Stolzl-regular';
+	src: local(Stolzl-regular), url('../fonts/scraped/a28e96a6e58bd279-s.p.woff2');
+}
+
+@font-face {
+	font-family: 'Stolzl-thin';
+	src: local(Stolzl-thin), url('../fonts/scraped/aa1b79fcb46819f3-s.p.woff2');
+}
+
+.thin-text {
+	font-family: 'Stolzl-thin';
 }
 
 html,
 header,
 body {
 	all: unset;
-	font-family: 'Stolzl';
+	font-family: 'Stolzl-regular';
 	background: rgb(249, 246, 243);
 }
 
@@ -18,4 +27,8 @@ body {
 a {
 	user-select: none;
 	text-decoration: none;
+}
+
+p {
+	margin: 0px;
 }

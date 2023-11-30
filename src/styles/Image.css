@@ -1,0 +1,11 @@
+img {
+	display: flex;
+}
+
+.image {
+	height: 500px;
+}
+
+.circle {
+	border-radius: 50%;
+}
