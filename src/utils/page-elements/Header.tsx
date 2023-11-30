@@ -11,13 +11,19 @@ const Header = () => {
 				<img src={logo} className="logo" />
 			</a>
 			<div className="links">
-				<span className="link">
+				<a className="link">
 					<button className="services">Services</button>
 					<img src={dropdownArrow} />
-				</span>
-				<span className="link">Careers</span>
-				<span className="link">About Us</span>
-				<span className="link">Blog</span>
+				</a>
+				<a href="" className="link">
+					Careers
+				</a>
+				<a href="" className="link">
+					About Us
+				</a>
+				<a href="" className="link">
+					Blog
+				</a>
 				<Button
 					style="blue"
 					link="/contact-us"
