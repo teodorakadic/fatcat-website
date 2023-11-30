@@ -1,6 +1,4 @@
-import circle from './circle.svg'
-
-const CircleSVG = () => {
+const CircleArrowSVG = () => {
 	return (
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -18,4 +16,4 @@ const CircleSVG = () => {
 	)
 }
 
-export default CircleSVG
+export default CircleArrowSVG

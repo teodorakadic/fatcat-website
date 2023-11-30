@@ -1,7 +1,8 @@
-import '../styles/Header.css'
-import logo from '../SVGs/logo.svg'
-import dropdownArrow from '../SVGs/dropdownArrow.svg'
-import GoButton from './GoButton'
+import '../../styles/Header.css'
+import Button from './Button'
+import logo from '../../SVGs/logo.svg'
+import dropdownArrow from '../../SVGs/dropdownArrow.svg'
+import CircleArrowSVG from '../SVG-components/CircleArrowSVG'
 
 const Header = () => {
 	return (
@@ -17,7 +18,12 @@ const Header = () => {
 				<span className="link">Careers</span>
 				<span className="link">About Us</span>
 				<span className="link">Blog</span>
-				<GoButton style="blue" link="/contact-us" text="Contact Us"></GoButton>
+				<Button
+					style="blue"
+					link="/contact-us"
+					text="Contact Us"
+					icon={<CircleArrowSVG />}
+				></Button>
 			</div>
 		</div>
 	)
