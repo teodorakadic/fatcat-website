@@ -15,15 +15,9 @@ const Header = () => {
 					<button className="services">Services</button>
 					<img src={dropdownArrow} />
 				</a>
-				<a href="" className="link">
-					Careers
-				</a>
-				<a href="" className="link">
-					About Us
-				</a>
-				<a href="" className="link">
-					Blog
-				</a>
+				<a className="link">Careers</a>
+				<a className="link">About Us</a>
+				<a className="link">Blog</a>
 				<Button
 					style="blue"
 					link="/contact-us"
