@@ -1,7 +1,6 @@
 @font-face {
 	font-family: 'Stolzl';
-	src: local('Stolzl'),
-		url('../fonts/Stolzl/stolzl_regular.otf') format('opentype');
+	src: local('Stolzl'), url('../fonts/scraped/a28e96a6e58bd279-s.p.woff2');
 }
 
 html,
