@@ -15,6 +15,7 @@
 html,
 header,
 body {
+	scroll-behavior: smooth;
 	all: unset;
 	font-family: 'Stolzl-regular';
 	background: rgb(249, 246, 243);
