@@ -15,7 +15,9 @@ const Header = () => {
 					<button className="services">Services</button>
 					<img src={dropdownArrow} />
 				</a>
-				<a className="link">Careers</a>
+				<a className="link" href="/careers">
+					Careers
+				</a>
 				<a className="link">About Us</a>
 				<a className="link">Blog</a>
 				<Button
