@@ -27,9 +27,13 @@ body {
 
 a {
 	user-select: none;
-	text-decoration: none;
+	/* text-decoration: none; */
 }
 
 p {
 	margin: 0px;
+}
+
+* {
+	text-decoration: none;
 }
