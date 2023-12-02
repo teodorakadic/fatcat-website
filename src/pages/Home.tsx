@@ -8,7 +8,7 @@ import imageSrc from '../images/home/home-hero.webp'
 
 const Home = () => {
 	return (
-		<>
+		<main>
 			<div className="home">
 				<div className="column">
 					<div>
@@ -37,7 +37,7 @@ const Home = () => {
 				</div>
 			</div>
 			<Partners />
-		</>
+		</main>
 	)
 }
 

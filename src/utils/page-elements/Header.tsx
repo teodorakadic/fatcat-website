@@ -6,28 +6,30 @@ import CircleArrowSVG from '../SVG-components/CircleArrowSVG'
 
 const Header = () => {
 	return (
-		<div className="header">
-			<a href="/" className="a-logo">
-				<img src={logo} className="logo" />
-			</a>
-			<div className="links">
-				<a className="link">
-					<button className="services">Services</button>
-					<img src={dropdownArrow} />
+		<header className="header-wrapper">
+			<div className="header">
+				<a href="/" className="a-logo">
+					<img src={logo} className="logo" />
 				</a>
-				<a className="link" href="/careers">
-					Careers
-				</a>
-				<a className="link">About Us</a>
-				<a className="link">Blog</a>
-				<Button
-					style="blue"
-					link="/contact-us"
-					text="Contact Us"
-					icon={<CircleArrowSVG />}
-				/>
+				<div className="links">
+					<a className="link">
+						<button className="services">Services</button>
+						<img src={dropdownArrow} />
+					</a>
+					<a className="link" href="/careers">
+						Careers
+					</a>
+					<a className="link">About Us</a>
+					<a className="link">Blog</a>
+					<Button
+						style="blue"
+						link="/contact-us"
+						text="Contact Us"
+						icon={<CircleArrowSVG />}
+					/>
+				</div>
 			</div>
-		</div>
+		</header>
 	)
 }
 

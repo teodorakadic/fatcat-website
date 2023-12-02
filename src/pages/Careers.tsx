@@ -6,7 +6,7 @@ import imageSrc from '../images/careers/careers-hero-2.webp'
 
 const Careers = () => {
 	return (
-		<div className="careers">
+		<main className="careers">
 			<div>
 				<div>Navigate your career path with us</div>
 				<div>
@@ -22,7 +22,7 @@ const Careers = () => {
 			<div>
 				<img src={imageSrc} />
 			</div>
-		</div>
+		</main>
 	)
 }
 

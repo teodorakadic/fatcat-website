@@ -2,7 +2,7 @@ import '../styles/ContactUs.css'
 
 const ContactUs = () => {
 	return (
-		<div className="contact">
+		<main className="contact">
 			<div>
 				<div>Let's work together</div>
 				<div>
@@ -30,7 +30,7 @@ const ContactUs = () => {
 					<input type="submit" value="submit" />
 				</form>
 			</div>
-		</div>
+		</main>
 	)
 }
 
