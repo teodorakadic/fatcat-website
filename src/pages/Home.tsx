@@ -4,7 +4,7 @@ import Image from '../utils/page-elements/Image'
 import Partners from '../utils/page-elements/Partners'
 import CircleArrowSVG from '../utils/SVG-components/CircleArrowSVG'
 
-import imageSrc from '../images/home/home-hero.webp'
+import imageSrc from '../assets/images/home/home-hero.webp'
 
 const Home = () => {
 	return (

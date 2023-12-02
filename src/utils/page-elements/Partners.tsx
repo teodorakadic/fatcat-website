@@ -34,7 +34,7 @@ const importPartnerLogos = (partners: any) => {
 
 const Partners = () => {
 	const partnerImages = importPartnerLogos(
-		require.context('../../images/partners/', false, /\.webp$/)
+		require.context('../../assets/images/partners/', false, /\.webp$/)
 	)
 
 	return (

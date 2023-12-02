@@ -1,7 +1,7 @@
 import '../../styles/Header.css'
 import Button from './Button'
-import logo from '../../SVGs/logo.svg'
-import dropdownArrow from '../../SVGs/dropdownArrow.svg'
+import logo from '../../assets/SVGs/logo.svg'
+import dropdownArrow from '../../assets/SVGs/dropdownArrow.svg'
 import CircleArrowSVG from '../SVG-components/CircleArrowSVG'
 
 const Header = () => {

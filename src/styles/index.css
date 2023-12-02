@@ -1,11 +1,13 @@
 @font-face {
 	font-family: 'Stolzl-regular';
-	src: local(Stolzl-regular), url('../fonts/scraped/a28e96a6e58bd279-s.p.woff2');
+	src: local(Stolzl-regular),
+		url('../assets/fonts/scraped/a28e96a6e58bd279-s.p.woff2');
 }
 
 @font-face {
 	font-family: 'Stolzl-thin';
-	src: local(Stolzl-thin), url('../fonts/scraped/aa1b79fcb46819f3-s.p.woff2');
+	src: local(Stolzl-thin),
+		url('../assets/fonts/scraped/aa1b79fcb46819f3-s.p.woff2');
 }
 
 .thin-text {

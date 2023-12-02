@@ -2,7 +2,7 @@ import '../styles/Careers.css'
 import CircleArrowSVG from '../utils/SVG-components/CircleArrowSVG'
 import Button from '../utils/page-elements/Button'
 
-import imageSrc from '../images/careers/careers-hero-2.webp'
+import imageSrc from '../assets/images/careers/careers-hero-2.webp'
 
 const Careers = () => {
 	return (
