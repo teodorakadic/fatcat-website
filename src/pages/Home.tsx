@@ -1,8 +1,8 @@
 import '../styles/Home.css'
-import Button from '../utils/page-elements/Button'
-import Image from '../utils/page-elements/Image'
-import Partners from '../utils/page-elements/Partners'
-import CircleArrowSVG from '../utils/SVG-components/CircleArrowSVG'
+import Image from '../components/page-elements/Image'
+import Button from '../components/page-elements/Button'
+import Partners from '../components/page-elements/Partners'
+import CircleArrowSVG from '../components/SVG-components/CircleArrowSVG'
 
 import imageSrc from '../assets/images/home/home-hero.webp'
 

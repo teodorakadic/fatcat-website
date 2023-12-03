@@ -1,6 +1,6 @@
 import '../styles/Careers.css'
-import CircleArrowSVG from '../utils/SVG-components/CircleArrowSVG'
-import Button from '../utils/page-elements/Button'
+import Button from '../components/page-elements/Button'
+import CircleArrowSVG from '../components/SVG-components/CircleArrowSVG'
 
 import imageSrc from '../assets/images/careers/careers-hero-2.webp'
 
