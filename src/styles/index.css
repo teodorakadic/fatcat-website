@@ -1,15 +1,17 @@
 @font-face {
-	font-family: 'Stolzl-regular';
-	src: local(Stolzl-regular), url('../assets/fonts/stolzl/stolzl-regular.woff2');
+	font-family: 'Stolzl';
+	src: url('../assets/fonts/stolzl/stolzl-regular.woff2') format('woff2');
+	font-weight: 500;
 }
 
 @font-face {
-	font-family: 'Stolzl-thin';
-	src: local(Stolzl-thin), url('../assets/fonts/stolzl/stolzl-thin.woff2');
+	font-family: 'Stolzl';
+	src: url('../assets/fonts/stolzl/stolzl-thin.woff2') format('woff2');
+	font-weight: 400;
 }
 
 .thin-text {
-	font-family: 'Stolzl-thin';
+	font-weight: 400;
 }
 
 html,
@@ -19,7 +21,7 @@ body {
 	/* overflow: clip; */
 	scroll-behavior: smooth;
 	all: unset;
-	font-family: 'Stolzl-regular';
+	font-family: 'Stolzl';
 	background: rgb(249, 246, 243);
 }
 
@@ -38,4 +40,5 @@ p {
 
 * {
 	text-decoration: none;
+	font-weight: 500;
 }
