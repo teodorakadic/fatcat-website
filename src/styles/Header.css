@@ -3,9 +3,10 @@ button {
 }
 
 .header-wrapper {
-	display: flex;
-	position: fixed; /*TODO: make sticky*/
 	width: 100%;
+	display: flex;
+	position: sticky;
+	background-color: inherit;
 }
 
 .header {
@@ -13,7 +14,6 @@ button {
 	width: 100%;
 	align-items: center;
 	justify-content: space-between;
-	background-color: inherit;
 	padding: 16px 40px;
 }
 
@@ -28,6 +28,11 @@ button {
 
 .coders {
 	color: rgb(92, 98, 249);
+}
+
+.dropdown-arrow {
+	width: 10px;
+	height: 6px;
 }
 
 .links {
@@ -45,6 +50,7 @@ button {
 	justify-content: space-between;
 	font-size: 1rem;
 	cursor: pointer;
+	color: inherit;
 }
 
 .link:hover {

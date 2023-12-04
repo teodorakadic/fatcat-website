@@ -1,0 +1,16 @@
+.section-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.top-row {
+	display: flex;
+}
+
+.mid-row {
+	display: flex;
+}
+
+.bot-row {
+	display: flex;
+}

@@ -14,7 +14,7 @@ const Header = () => {
 				<div className="links">
 					<a className="link">
 						<button className="services">Services</button>
-						<img src={dropdownArrow} />
+						<img className="dropdown-arrow" src={dropdownArrow} />
 					</a>
 					<a className="link" href="/careers">
 						Careers
