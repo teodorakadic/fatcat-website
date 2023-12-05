@@ -16,17 +16,10 @@ const Header = () => {
 						<button className="services">Services</button>
 						<img className="dropdown-arrow" src={dropdownArrow} />
 					</a>
-					<a className="link" href="/careers">
-						Careers
-					</a>
+					<a className="link">Careers</a>
 					<a className="link">About Us</a>
 					<a className="link">Blog</a>
-					<Button
-						style="blue"
-						link="/contact-us"
-						text="Contact Us"
-						icon={<CircleArrowSVG />}
-					/>
+					<Button style="blue" text="Contact Us" icon={<CircleArrowSVG />} />
 				</div>
 			</div>
 		</header>

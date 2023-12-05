@@ -16,7 +16,7 @@ function App() {
 					<Route path="/careers" element={<Careers />} />
 				</Routes>
 			</BrowserRouter>
-			<Footer />
+			{/* <Footer /> */}
 		</>
 	)
 }

@@ -10,8 +10,8 @@ button {
 }
 
 .header {
-	display: flex;
 	width: 100%;
+	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	padding: 16px 40px;
@@ -43,11 +43,11 @@ button {
 }
 
 .link {
-	font-weight: 500;
 	display: flex;
 	align-items: center;
-	line-height: 1.4;
 	justify-content: space-between;
+	font-weight: 500;
+	line-height: 1.4;
 	font-size: 1rem;
 	cursor: pointer;
 	color: inherit;
