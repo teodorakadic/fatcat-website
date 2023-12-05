@@ -1,8 +1,7 @@
 import '../styles/Home.css'
-import Image from '../components/page-elements/Image'
 import Button from '../components/page-elements/Button'
 import Partners from '../components/page-elements/Partners'
-import CircleArrowSVG from '../components/SVG-components/CircleArrowSVG'
+import { ReactComponent as CircleArrowSVG } from '../assets/SVGs/circle-arrow.svg'
 
 import imageSrc from '../assets/images/home/home-hero.webp'
 
@@ -41,7 +40,7 @@ const Home = () => {
 							</div>
 							<div className="right-column">
 								<div className="img">
-									<Image src={imageSrc} />
+									<img src={imageSrc} />
 								</div>
 							</div>
 						</div>

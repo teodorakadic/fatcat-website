@@ -2,7 +2,7 @@ import '../styles/Header.css'
 import logo from '../assets/SVGs/logo.svg'
 import Button from '../components/page-elements/Button'
 import dropdownArrow from '../assets/SVGs/dropdownArrow.svg'
-import CircleArrowSVG from '../components/SVG-components/CircleArrowSVG'
+import { ReactComponent as CircleArrowSVG } from '../assets/SVGs/circle-arrow.svg'
 
 const Header = () => {
 	return (

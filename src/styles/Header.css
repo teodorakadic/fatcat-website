@@ -6,7 +6,8 @@ button {
 	width: 100%;
 	display: flex;
 	position: sticky;
-	background-color: inherit;
+	/* TODO: background-color: inherit; */
+	background-color: rgb(249, 246, 243);
 }
 
 .header {

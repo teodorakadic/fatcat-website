@@ -1,6 +1,6 @@
 import '../styles/Careers.css'
 import Button from '../components/page-elements/Button'
-import CircleArrowSVG from '../components/SVG-components/CircleArrowSVG'
+import { ReactComponent as CircleArrowSVG } from '../assets/SVGs/circle-arrow.svg'
 
 import imageSrc from '../assets/images/careers/careers-hero-2.webp'
 
