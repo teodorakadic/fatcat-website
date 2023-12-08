@@ -18,9 +18,9 @@ html,
 body {
 	all: unset;
 	max-width: 100%;
-	line-height: 1.4;
 	scroll-behavior: smooth;
 	font-family: 'Stolzl';
+	/* line-height: 1.4; */
 }
 
 * {
