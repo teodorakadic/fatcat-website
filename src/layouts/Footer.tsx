@@ -1,6 +1,7 @@
 import '../styles/Footer.css'
 import logo from '../assets/SVGs/logo.svg'
 import Button from '../components/page-elements/Button'
+import FooterImage from '../assets/images/footer/cat.webp'
 import { ReactComponent as FacebookSVG } from '../assets/SVGs/facebook.svg'
 import { ReactComponent as LinkedIn } from '../assets/SVGs/linkedin.svg'
 import { ReactComponent as Instagram } from '../assets/SVGs/instagram.svg'
@@ -59,6 +60,9 @@ const Footer = () => {
 						</a>
 						<a href="">{<LinkedIn />}</a>
 						<a href="">{<Instagram />}</a>
+					</div>
+					<div className="footer-image">
+						<img src={FooterImage} />
 					</div>
 				</section>
 				<section className="footer-bottom">

@@ -43,3 +43,13 @@
 	gap: 12px;
 	line-height: 1.4;
 }
+
+.footer-image {
+	max-width: 300px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+.footer-image img {
+}
