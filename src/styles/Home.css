@@ -28,11 +28,6 @@
 	gap: 66px;
 }
 
-.home p {
-	font-size: 3.375rem;
-	line-height: 1.4;
-}
-
 .left-column {
 	align-self: flex-start;
 	width: 58%;
@@ -42,15 +37,20 @@
 	gap: 32px;
 }
 
-.banner-title {
+.banner-title-wrapper {
 	width: 100%;
 	gap: 16px;
 	display: flex;
 	flex-direction: column;
 }
 
+.banner-title {
+	font-size: 3.375rem;
+	line-height: 1.4;
+}
+
 .bold-text {
-	line-height: 1.5 !important;
+	line-height: 1.5;
 }
 
 .right-column {
