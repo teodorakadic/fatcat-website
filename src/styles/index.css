@@ -10,34 +10,42 @@
 	font-weight: 400;
 }
 
+@font-face {
+	font-family: 'Architects-daughter';
+	src: url('../assets/fonts/architects-daughter.woff2') format('woff2');
+	font-weight: 500;
+}
+
 .thin-text {
 	font-weight: 400;
 }
 
 html,
-/* header, */
-body {
-	/* max-width: 100%; */
-	/* overflow: clip; */
-	scroll-behavior: smooth;
-	all: unset;
+body,
+* {
+	/* line-height: 1.4; */
 	font-family: 'Stolzl';
+	font-weight: 500;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+head {
+	display: none;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	-webkit-font-smoothing: antialiased; /* Ensures equal font render for different OS and browsers */
+	text-decoration: none;
+	user-select: none;
 }
 
 body {
 	overflow-y: scroll;
-}
-
-a {
-	user-select: none;
-	/* text-decoration: none; */
-}
-
-p {
-	margin: 0px;
-}
-
-* {
-	text-decoration: none;
-	font-weight: 500;
+	overflow-x: clip;
 }
